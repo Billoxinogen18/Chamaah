@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chamaah</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="delete">DELETE</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="facebook_app_id">1034875433284046</string>
+    <string name="fb_login_protocol_scheme">fb1034875433284046</string>
+
+    <string name="verify_title">Verify Phone Number to Complete Setup</string>
+
+    <string name="verify_confirmation">We have sent a Confirmation Code to the Phone Number below</string>
+
+    <string name="verify_confirmation2">Please enter the confirmation code sent Via Text message below</string>
+
+
+    <string name="toolbar_title">Welcome</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+
+
+
+</resources>

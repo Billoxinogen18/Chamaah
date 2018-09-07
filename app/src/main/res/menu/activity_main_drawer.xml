@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/groups_button"
+            android:icon="@drawable/groups_icon"
+            android:title="Groups" />
+        <item
+            android:id="@+id/savings_button"
+            android:icon="@drawable/savings_icon_small"
+            android:title="Savings and Loans" />
+        <item
+            android:id="@+id/preferences_button"
+            android:icon="@drawable/preferences_icon_small"
+            android:title="Preferences" />
+    </group>
+
+    <item android:title="Promote">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite Friends" />
+            <item
+                android:id="@+id/log_out_button"
+                android:icon="@drawable/exit_black"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

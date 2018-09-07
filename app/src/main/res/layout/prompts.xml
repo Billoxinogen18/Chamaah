@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/icon_60" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter payment Amount : "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/amount_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/c_textbox_clear"
+        android:padding="13dp"
+        android:inputType="numberDecimal">
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "676244354248",
+    "firebase_url": "https://chamaah-bac24.firebaseio.com",
+    "project_id": "chamaah-bac24",
+    "storage_bucket": "chamaah-bac24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676244354248:android:b1ae5f173adc4faf",
+        "android_client_info": {
+          "package_name": "wayawaya.ww.chamaah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676244354248-uvulpq072jo1bm3f3b0h47rugqbsaub3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "676244354248-uvulpq072jo1bm3f3b0h47rugqbsaub3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Tae6naLIveB-m7KHVB9gfZ3_LLQxLUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

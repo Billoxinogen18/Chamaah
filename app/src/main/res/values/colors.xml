@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7ac4a3</color>
+    <color name="colorPrimaryDark">#1b330a</color>
+    <color name="colorAccent">#83bd4c</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_row_background">#ff5573</color>
+
+    <color name="pale_orange">#d8895b</color>
+
+    <color name="pale_blue">#d9fcfb</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+
+</resources>

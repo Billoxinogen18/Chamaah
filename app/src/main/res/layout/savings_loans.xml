@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="80dip"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019">
+
+        <Button
+            android:id="@+id/virtual_card_button"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/virtualcard" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/virtual_card_button"
+            android:layout_alignBottom="@+id/virtual_card_button"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/virtual_card_button"
+            android:text="Savings : " />
+
+        <TextView
+            android:id="@+id/savings_amount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:text="0.00" />
+
+        <TextView
+            android:id="@+id/savings_amount_currency_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/savings_amount_label"
+            android:text="KES" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/virtual_card_button"
+            android:text="Loans :" />
+
+        <TextView
+            android:id="@+id/loan_amount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/savings_amount_label"
+            android:layout_alignTop="@+id/textView5"
+            android:text="0.00" />
+
+        <TextView
+            android:id="@+id/loan_amount_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/loan_amount_label"
+            android:layout_alignParentEnd="true"
+            android:text="KES" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView5"
+            android:text="Loan Limit :" />
+
+        <TextView
+            android:id="@+id/loan_limit_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/loan_amount_label"
+            android:layout_alignTop="@+id/textView8"
+            android:text="0.00" />
+
+        <TextView
+            android:id="@+id/loan_limit_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/loan_limit_amount"
+            android:text="KES" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/label_one_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            app:srcCompat="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/label_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/label_one_image"
+            android:text="Savings" />
+
+        <TextView
+            android:id="@+id/label_one_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/label_one"
+            android:layout_alignBottom="@+id/label_one"
+            android:layout_marginStart="87dp"
+            android:layout_toEndOf="@+id/label_one"
+            android:text="0.00" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981">
+
+        <Button
+            android:id="@+id/request_loan_button"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/green_rounded_button"
+            android:text="Request Loan"
+            android:textColor="@color/white"
+
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/repay_loan_button"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/green_rounded_button"
+            android:text="Repay  Loans"
+            android:textColor="@color/white"
+
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/savings_setup"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/repay_loan_button"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/green_rounded_button"
+            android:text="Savings Setup"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06">
+
+        <ImageView
+            android:id="@+id/label_two_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            app:srcCompat="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/label_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/label_two_image"
+            android:text="Loan Repayments" />
+
+        <TextView
+            android:id="@+id/label_two_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/label_two"
+            android:layout_marginStart="24dp"
+            android:layout_toEndOf="@+id/label_two"
+            android:text="0.00" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/label_three_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            app:srcCompat="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/label_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/label_three_image"
+            android:text="Loans Out" />
+
+        <TextView
+            android:id="@+id/label_three_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/label_three"
+            android:layout_alignBottom="@+id/label_three"
+            android:layout_marginStart="73dp"
+            android:layout_toEndOf="@+id/label_three"
+            android:text="0.00" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
